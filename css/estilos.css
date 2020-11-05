@@ -1,0 +1,38 @@
+.titlulos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	color: #005883;
+}
+.contenido1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	color: #333333;
+}
+.contenido2-enfasis {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	color: #A54686;
+}
+.codigo {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	color: #666666;
+	letter-spacing: 2px;
+	font-style: normal;
+}
+.notas_codigo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #23CADC;
+	letter-spacing: 1px;
+	font-style: normal;
+}
+.contenido-smll {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	color: #333333;
+}

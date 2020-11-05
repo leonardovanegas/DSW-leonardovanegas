@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Conceptos</title>
+<style type="text/css">
+<!--
+body 
+{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(pics/0002-fondo.jpg);
+}
+-->
+</style>
+<link href="css/estilos.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<table width="850" height="412" border="0" align="center" cellpadding="0" cellspacing="0" >
+  <tr>
+    <td width="607" height="150"><img src="pics/0001-banner-sup.jpg" alt="banner" width="850" height="412" border="0" usemap="#Map" /></td>
+  </tr>
+</table>
+<table width="850" height="60" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="607" height="60"><table width="851" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="32" class="titlulos">&nbsp;</td>
+        <td width="764" class="titlulos">Conceptos - Propiedades b&aacute;sicas de CSS </td>
+        <td width="32">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="titlulos"></td>
+        <td class="titlulos"></td>
+        <td></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+<table width="850" height="50" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="607" height="50"><table width="851" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="32" class="titlulos"></td>
+        <td width="764" class="contenido1"><div align="justify"><a name="menu" id="menu"></a>Menu de contenidos:</div></td>
+        <td width="32"></td>
+      </tr>
+      <tr>
+        <td height="12" class="titlulos"></td>
+        <td class="titlulos"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td height="12" class="titlulos"></td>
+        <td class="titlulos"><table width="259" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="68" height="22"></td>
+            <td width="191" class="contenido1"><a href="#Display">Display</a></td>
+          </tr>
+        </table>
+          <table width="258" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="105" height="22"></td>
+              <td width="153" class="contenido-smll"><a href="#Display_sintaxis">Sintaxis</a><br />                <a href="#Display_ej">Ejemplos</a><br />                <a href="#Display_nota">Notas</a></td>
+            </tr>
+          </table>
+          <table width="259" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="68" height="22"></td>
+              <td width="191" class="contenido1"><a href="#inline">Display: inline</a></td>
+            </tr>
+          </table>
+          <table width="258" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="105" height="22"></td>
+              <td width="153" class="contenido-smll"><a href="#inline_ej">Ejemplos</a></td>
+            </tr>
+          </table>
+          <table width="259" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="68" height="22"></td>
+              <td width="191" class="contenido1"><a href="#block">Display: block </a></td>
+            </tr>
+          </table>
+          <table width="259" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="68" height="22"></td>
+              <td width="191" class="contenido1"><a href="#in_block">Display: inline-block</a></td>
+            </tr>
+          </table>          </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td height="40" class="titlulos"></td>
+        <td class="titlulos"></td>
+        <td height="34"></td>
+      </tr>
+      <tr>
+        <td height="19" class="titlulos"></td>
+        <td align="center" class="titlulos"><div align="left" class="contenido1">
+          <p class="contenido2-enfasis"><a name="Display" id="Display"></a>Display:</p>
+          <p>La propiedad display especifica lo que se va amostrar, en otras palabras el modo</p>
+          <p>de visualizaci&oacute;n de determinado elemento.</p>
+          <p>As&iacute; mismo esta propiedad define si detereminado elemento debe ser tratado como un</p>
+          <p>elemento block o inline, asi como el tipo de layout o dise&ntilde;o utilizado por sus subcapas. </p>
+          </div></td>
+        <td height="12"></td>
+      </tr>
+      <tr>
+        <td height="12" class="titlulos"></td>
+        <td align="center" class="titlulos"></td>
+        <td height="12"></td>
+      </tr>
+      <tr>
+        <td height="12" class="titlulos"></td>
+        <td align="center" class="contenido2-enfasis"><div align="left"> <p><a name="Display_sintaxis" id="Display_sintaxis"></a>Sintaxis:</p>
+         
+            <table width="782" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="74"></td>
+                <td width="708"><p class="codigo">.container</p>
+                    <p class="codigo">{ display:</p>
+                  <p class="codigo">[ &lt;display-outside&gt; | &lt;display-inside&gt; ]</p>
+                  <p class="codigo">| &lt;display-listitem&gt; | &lt;display-internal&gt; | &lt;display-box&gt;</p>
+                  <p class="codigo">| &lt;display-legacy&gt; ; }</p>
+                  <p class="codigo">&nbsp;</p>
+                  <p class="codigo">&lt;display-outside&gt;</p>
+                  <p class="notas_codigo">&#9492;especifican el tipo de display que hay afuera</p>
+                  <p class="notas_codigo">&#9492;&#9472; Los valores validos son:</p>
+                  <p class="codigo">&#9492;&#9472; block</p>
+                  <p class="codigo">&#9492;&#9472; inline</p>
+                  <p class="codigo">&#9492;&#9472; run-in</p>
+                  <p class="codigo">&nbsp;</p>
+                  <p class="codigo">&lt;display-inside&gt;</p>
+                  <p class="notas_codigo">&#9492;especifican el tipo de display que hay dentro</p>
+                  <p class="notas_codigo">&#9492;&#9472; Los valores validos son:</p>
+                  <p class="codigo">&#9492;&#9472; flow</p>
+                  <p class="codigo">&#9492;&#9472; flow-root</p>
+                  <p class="codigo">&#9492;&#9472; table</p>
+                  <p class="codigo">&#9492;&#9472; flex</p>
+                  <p class="codigo">&#9492;&#9472; grid</p>
+                  <p class="codigo">&#9492;&#9472; ruby</p>
+                  <p> </p>
+                  <p class="codigo">&lt;display-listitem&gt;</p>
+                  <p class="notas_codigo">&#9492;este elemento genera un bloque de caja nuevo para el contenido</p>
+                  <p> </p>
+                  <p class="codigo">&lt;display-internal&gt;</p>
+                  <p class="notas_codigo">&#9492;en algunos modelos complejos de dise&ntilde;o como table o ruby define procedmientos para</p>
+                  <p class="notas_codigo">control de sub capas (children)</p>
+                  <p class="codigo">&#9492;&#9472; Los valores validos son:</p>
+                  <p class="codigo">&#9492;&#9472; table-row-group</p>
+                  <p class="codigo">&#9492;&#9472; table-header-group</p>
+                  <p class="codigo">&#9492;&#9472; table-footer-group</p>
+                  <p class="codigo">&#9492;&#9472; table-row</p>
+                  <p class="codigo">&#9492;&#9472; table-cell</p>
+                  <p class="codigo">&#9492;&#9472; table-column-group</p>
+                  <p class="codigo">&#9492;&#9472; table-column</p>
+                  <p class="codigo">&#9492;&#9472; ruby-base</p>
+                  <p class="codigo">&#9492;&#9472; ruby-text</p>
+                  <p class="codigo">&#9492;&#9472; ruby-base-container</p>
+                  <p class="codigo">&#9492;&#9472; ruby-text-container</p>
+                  <p> </p>
+                  <p class="codigo">&lt;display-box&gt;</p>
+                  <p class="notas_codigo">&#9492;se utiliza para definir si determinado elemento usa cajas o no</p>
+                  <p class="notas_codigo">&#9492;&#9472; Los valores validos son:</p>
+                  <p class="codigo">&#9492;&#9472; contents</p>
+                  <p class="codigo">&#9492;&#9472; none</p></td>
+              </tr>
+            </table>
+        </div></td>
+        <td height="12"></td>
+      </tr>
+      <tr>
+        <td height="12" class="titlulos"></td>
+        <td align="center" class="contenido2-enfasis"></td>
+        <td height="12"></td>
+      </tr>
+      <tr>
+        <td height="12" class="titlulos"></td>
+        <td align="center" class="contenido2-enfasis"><div align="left">
+          <p><a name="Display_ej" id="Display_ej"></a>Ejemplos de Display</p>
+          <table width="782" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="74" height="12"></td>
+              <td width="708"><p class="codigo">p.ex1 {display: none;}</p>
+                  <p class="codigo">p.ex2 {display: inline;}</p>
+                  <p class="codigo">p.ex3 {display: block;}</p>
+                  <p class="codigo">p.ex4 {display: inline-block;}</p></td>
+            </tr>
+          </table>
+          </div></td>
+        <td height="12"></td>
+      </tr>
+      <tr>
+        <td height="12" class="titlulos"></td>
+        <td align="center" class="contenido2-enfasis"></td>
+        <td height="12"></td>
+      </tr>
+      <tr>
+        <td height="12" class="titlulos"></td>
+        <td align="center" class="contenido1"><div align="left">
+          <p class="contenido2-enfasis"><a name="Display_nota" id="Display_nota"></a>Notas sobre Display </p>
+          <table width="782" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="74"></td>
+              <td width="708"><p align="justify"><strong>La propiedad display</strong> posee diferentes grados de complejidad y en algunos casos algunos navegadores dada su complejidad no muetran todas sus porpiedades.</p>
+                <p align="justify"><strong>Por defecto</strong> display no genera ninguna caja o visualizaci&oacute;n, esto ocaciona que el elemento desaparezca por completo de la p&aacute;gina y no ocupe ning&uacute;n sitio. </p>
+                <p align="justify"><strong>En el caso de display: none</strong> el elemento y sus decendientes desaparecer&aacute;n del sitio, esta aplicaci&oacute;n es usualmente utilizada en p&aacute;ginas din&aacute;micas que utilizan JavaScript y de esta manera ocultan o muestran contenidos cuando el usuario realiza alguna acci&oacute;n.</p>                </td>
+            </tr>
+          </table>
+          </div></td>
+        <td height="12"></td>
+      </tr>
+      <tr>
+        <td height="40"></td>
+        <td align="center"></td>
+        <td height="12"></td>
+      </tr>
+      <tr>
+        <td height="12"></td>
+        <td align="center"><p align="left" class="contenido2-enfasis"><a name="inline" id="inline"></a>Display: inline</p>
+          <p align="left" class="contenido1">En este caso la instrucci&oacute;n inline genera uno o m&aacute;s elementos inline de tipo caja que no puden generar lineas de ruptura antes de ellas. En otras palabras los elementos inline no afectan el flujo de otros elementos, se limitan a marcar ciertos fragmentos dejando que el texto y otros elementos contiguos fluyan en la misma l&iacute;nea.</p>          </td>
+        <td height="12"></td>
+      </tr>
+      <tr>
+        <td height="12"></td>
+        <td align="center"></td>
+        <td height="12"></td>
+      </tr>
+      <tr>
+        <td height="12"></td>
+        <td align="center" class="contenido2-enfasis"><div align="left">
+          <p><a name="inline_ej" id="inline_ej"></a>Ejemplos:</p>
+          <table width="782" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="74"></td>
+              <td width="708"><p align="justify" class="codigo">&lt;span&gt;, &lt;em&gt;, &lt;strong&gt;, &lt;a&gt;, &lt;em&gt;,&lt;del&gt;</p>                  </td>
+            </tr>
+          </table>
+          <p></p>
+        </div></td>
+        <td height="12"></td>
+      </tr>
+      <tr>
+        <td height="12"></td>
+        <td align="center"><div align="left" class="contenido2-enfasis">
+          <p><a name="block" id="block"></a>Display: block</p>
+          <p class="contenido1">En este caso, diferentes elementos son bloqueados por el navegador, por lo general estos elementos son de tipo container como &lt;div&gt;, &lt;section&gt;, &lt;ul&gt; y elementos de texto como</p>
+          <p class="contenido1"> &lt;p&gt; y &lt;h1&gt;</p>
+        </div></td>
+        <td height="12"></td>
+      </tr>
+      <tr>
+        <td height="12"></td>
+        <td align="center"></td>
+        <td height="12"></td>
+      </tr>
+      <tr>
+        <td height="12"></td>
+        <td align="center"><div align="left" class="contenido2-enfasis">
+          <p><a name="in_block" id="in_block"></a>Display: inline-block</p>
+          <p class="contenido1">En este caso, un elemento configurado como inline-block, es muy similar a un elemento inline, sinembargo el elemento aparecer&aacute; en l&iacute;nea pero se comporta como un elemento block. Esta cualidad es muy util en sircustancias cuando se desa dar anchura al elemento</p>
+        </div></td>
+        <td height="12"></td>
+      </tr>
+      <tr>
+        <td height="12"></td>
+        <td align="center"></td>
+        <td height="12"></td>
+      </tr>
+      <tr>
+        <td height="12"></td>
+        <td align="center" class="contenido2-enfasis"><div align="left">
+          <p>Referencias</p>
+          <p class="contenido-smll">&iquest;Qu&eacute; Es CSS?. (2020). Recuperado de:</p>
+          <p class="contenido-smll"><a href="https://www.hostinger.es/tutoriales/que-es-css/" target="_blank">https://www.hostinger.es/tutoriales/que-es-css/</a><br />
+          </p>
+          <p class="contenido-smll">&nbsp; </p>
+          <p class="contenido-smll">CSS display property. (2020). Recuperado de:</p>
+          <p class="contenido-smll"><a href="https://www.w3schools.com/cssref/pr_class_display.asp" target="_blank">https://www.w3schools.com/cssref/pr_class_display.asp</a><br />
+          </p>
+          <p class="contenido1">&nbsp;</p>
+          <p class="contenido-smll">Entender la propiedad display. (2020). Recuperado de:</p>
+          <p class="contenido-smll"><a href="http://w3.unpocodetodo.info/css3/display.php" target="_blank">http://w3.unpocodetodo.info/css3/display.php</a></p>
+          <p class="contenido-smll"><br />
+          </p>
+          <p class="contenido-smll">display | CSS-Tricks. (2020). Recuperado de:</p>
+          <p class="contenido-smll"><a href="https://css-tricks.com/almanac/properties/d/display" target="_blank">https://css-tricks.com/almanac/properties/d/display</a></p>
+          </div></td>
+        <td height="12"></td>
+      </tr>
+      <tr>
+        <td height="12"></td>
+        <td align="center"></td>
+        <td height="12"></td>
+      </tr>
+    </table></td>
+	
+  </tr>
+  
+</table>
+
+
+<map name="Map" id="Map"><area shape="rect" coords="49,344,147,375" href="index.html" />
+<area shape="rect" coords="191,349,331,371" href="conceptos.html" />
+<area shape="rect" coords="366,349,486,371" href="recursos.html" />
+<area shape="rect" coords="515,351,677,368" href="evalua.html" />
+<area shape="rect" coords="721,352,802,368" href="autor.html" />
+</map></body>
+</html>
